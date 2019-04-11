@@ -28,6 +28,7 @@ the passage of time.
   The World exists as a 'grid' of 'squares.'
   - Each square has another grid of squares forming 'biomes.'
   - Each biome has a grid of squares that form the level where individual entities can interact.
+  
   Biomes can be determined by the sum of their generated lower level grids - but usually are generated top down based on 
   temperature, rainfall, and a bit of randomness. 
   Entities can interact and theoretically change the biome they are in. Generated 'animal' populations moving, dying, thriving, and
