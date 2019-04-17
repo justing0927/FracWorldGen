@@ -43,4 +43,5 @@ the passage of time.
   There exist weather interactions on the biome scale.
   Implementing realistic drainage of water to properly form realistic bodies of water.
   More realistic food-webs, interactions between entities.
-  Implementing the Kingdom entity system to simulate human communities. 
+  Implementing the Kingdom entity system to simulate human communities.
+  More advanced jet-streams/wind generation.
