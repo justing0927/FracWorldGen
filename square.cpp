@@ -45,7 +45,7 @@ Square::Square() : graphic(' '), loc(-1), height(0), desc("The Final Frontier"),
 
 Square::Square(int i) : graphic(' '), loc(i), height(0), desc("The Final Frontier"), food(0), clim(MildHumid) {}
 
-Square::Square(char c, int x, int y, int h, std::string d, Grid* g, int f, climate cl, tempZone z) : graphic(c), loc(x), height(h), desc(d), grid(g), food(f), clim(cl), zone(z) {}
+Square::Square(char c, int i, int h, std::string d, Grid* g, int f, climate cl, tempZone z) : graphic(c), loc(i), height(h), desc(d), grid(g), food(f), clim(cl), zone(z) {}
 
 void Square::updateGraphic(char g) {
 	//synchronize threads
@@ -81,3 +81,4 @@ std::string &Square::getDesc() { return desc; }
 int &Square::getFoodVal() { return food; }
 climate &Square::getClimate() { return clim; }
 tempZone &Square::getZone() { return zone; }
+void Square::setZone(tempZone tz) { zone = tz; }

@@ -13,7 +13,7 @@ enum climate {
 };
 
 enum tempZone { //Köppen climate classification is more specific but less useful for this mayhaps? I don't know
-	Frigid, Temperate, Subtropic, Tropic //Torrid instead of tropics ?
+	Frigid, Temperate, Torrid //subtropic and tropic classification instead of Torrid?
 };
 
 class Square
@@ -33,7 +33,7 @@ public:
 
 	Square();
 	Square(int i);
-	Square(char c, int x, int y, int h, std::string d, Grid* g, int f, climate cl, tempZone z);
+	Square(char c, int i, int h, std::string d, Grid* g, int f, climate cl, tempZone z);
 
 	void updateGraphic(char g);
 
@@ -56,4 +56,5 @@ public:
 	int & getFoodVal();
 	climate & getClimate();
 	tempZone & getZone();
+	void setZone(tempZone tz);
 };
