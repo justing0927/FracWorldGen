@@ -38,10 +38,10 @@ the passage of time.
       before falling into a balance, or dying out. 
       
 ## Todo
-  Menu UI instead of command line parameters.
-  'Events' can occur on any of these three levels. From Volcanoes to small fires.~
-  There exist weather interactions on the biome scale.
-  Implementing realistic drainage of water to properly form realistic bodies of water.
-  More realistic food-webs, interactions between entities.
-  Implementing the Kingdom entity system to simulate human communities.
-  More advanced jet-streams/wind generation.
+  - Menu UI instead of command line parameters.
+  - 'Events' can occur on any of these three levels. From Volcanoes to small fires.~
+  - There exist weather interactions on the biome scale.
+  - Implementing realistic drainage of water to properly form realistic bodies of water.
+  - More realistic food-webs, interactions between entities.
+  - Implementing the Kingdom entity system to simulate human communities.
+  - More advanced jet-streams/wind generation.
