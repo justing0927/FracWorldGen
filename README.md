@@ -19,7 +19,7 @@ the passage of time.
 ## Climate
   Generates a series of geographical zones and wind patterns.
   Learned how to implement markov chains, which are used to generate clouds, with their type and movement in real-time.
-    Uses the steady state (extrapolated to near infinity) of that markov chain to determine averages for rainfall throught the world.
+    Uses the steady state (extrapolated to near infinity) of that markov chain to determine averages for rainfall throught the      world.
   Rainfall and temperate zone determine their biomes.
     E.g. A desert is created in more Torrid zones, determined by temperature, and where rainfall is nearly non-existent.
       Usually where clouds cannot move over that area due to mountain ranges. 
@@ -38,8 +38,9 @@ the passage of time.
       before falling into a balance, or dying out. 
       
 ## Todo
+  Menu UI instead of command line parameters.
   'Events' can occur on any of these three levels. From Volcanoes to small fires.~
-  There exist weather on both the world-wide and biome scales.
+  There exist weather interactions on the biome scale.
   Implementing realistic drainage of water to properly form realistic bodies of water.
   More realistic food-webs, interactions between entities.
   Implementing the Kingdom entity system to simulate human communities. 
